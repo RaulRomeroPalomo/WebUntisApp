@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_professor"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Search Professor" />
+        <item
+            android:id="@+id/nav_rooms"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Search Rooms" />
+        <item
+            android:id="@+id/nav_lectures"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Search Lectures" />
+        <item
+            android:id="@+id/nav_LogOut"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Log Out" />
+    </group>
+
+</menu>
